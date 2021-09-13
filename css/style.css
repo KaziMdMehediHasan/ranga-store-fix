@@ -13,19 +13,7 @@ body {
   outline: none;
   /* border: none; */
 }
-/* .search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
-  border-radius: 5px;
-  margin: auto;
-  margin-top: 50px;
-  border-right: none;
-}
-.search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 20px;
-} */
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -39,14 +27,14 @@ body {
 .single-product {
 padding: 10px;
 transition: 0.3s;
-height: 450px;
+height: 28.5rem;
 margin: 20px 10px;
 border-radius: 5px;
 padding-top: 30px;
 box-shadow: 5px 5px 40px -25px gray;
 }
 .single-product:hover {
-  transform: scale(1.1);
+  transform: translateY(-5%);
   border-radius: 10px;
 
 }
