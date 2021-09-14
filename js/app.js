@@ -216,7 +216,6 @@ const showProducts = (products) => {
 
   for (const product of allProducts) {
     const image = product.image; //there was a typo
-    console.log(image);
     const div = document.createElement("div");
     div.classList.add("product");
     div.innerHTML = `<div class="single-product">
@@ -231,7 +230,7 @@ const showProducts = (products) => {
       <h2>Price: $ <strong>${product.price}</strong></h2>
       <strong>Rating : <span style="color:  #ff329f 
 ">${product.rating.rate}/5</span></strong>
-      <p style="color: #3fa757">${
+      <p style="color: #9b37ed">${
         product.rating.count
       } people rated this product</p>
       <button onclick="addToCart(${product.id},${
